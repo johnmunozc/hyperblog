@@ -1,5 +1,6 @@
 body
 {
+    background: violet;
     color: black;
     text-align: left;
     font-family: "Arial";
@@ -10,13 +11,19 @@ body
 
 #cabecera
 {
-    background: #33a;
+    background: #33a url("../imagenes/tesla.png") 15px 15px no-repeat center;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.75);
     color: white;
     font-weight: bold;
     margin: 0;
-    padding: 0.5cm;
+    padding: 0.5cm 0 0.5em 2em;
 
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
