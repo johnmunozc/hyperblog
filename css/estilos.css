@@ -1,15 +1,15 @@
-body
+#body
 {
     background: violet;
     color: black;
-    text-align: left;
+    text-align: middle;
     font-family: "Arial";
     font-size: 16px;
     margin: 0 auto;
     padding: 0;
 }
 
-#cabecera
+#container #cabecera
 {
     background: #33a url("../imagenes/tesla.png") 15px 15px no-repeat center;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.75);
@@ -20,13 +20,13 @@ body
 
 }
 
-#cabecera #logo
+#container #cabecera #logo
 {
     width: 20px;
     vertical-align: middle;
 }
 
-#cabecera #tagline
+#container #cabecera #tagline
 {
     padding: 0 0 0 1em;
     font-weight: bold;
@@ -37,19 +37,19 @@ body
 {
     width: 70%;
     padding: 0;
-    text-align: left;
+    text-align: middle;
     border: 1px solid #DDD;
     margin: 0 auto;
 }
 
-#container h1
+#container #cabecera #h1
 {
     font-size: 20px;
 }
 
-#footer
+#container #cabecera #footer
 {
     background: #777;
     color: white;
-    text-align: right;
+    vertical-align: middle;
 }
