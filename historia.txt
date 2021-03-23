@@ -4,4 +4,5 @@ John Dario tiene 21 años, y él va a triunfar.
 master 2
 master 1
 experimento 1
+experimento 2
 Mañana nos enfocaremos en su vida personal ahora añado a main
